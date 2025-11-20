@@ -224,7 +224,7 @@ const ContactUs = () => {
     </svg>
   );
 
-  const ContactItem = ({ Icon, title, content, isLink = false }) => (
+  const ContactItem = ({  title, content, isLink = false }) => (
     <div className="mb-6">
       <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-1">
         {title}
